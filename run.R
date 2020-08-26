@@ -7,3 +7,9 @@ library(rmarkdown)
 library(knitr)
 library(xtable)
 library(jsonlite)
+
+# vcfR
+library(ape)
+library(memuse)
+library(pinfsc50)
+library(vegan)
