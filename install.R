@@ -2,7 +2,7 @@ options(repos="http://cran.rstudio.com/")
 
 install.packages("checkpoint")
 library(checkpoint)
-checkpoint("2020-08-24")
+checkpoint("2020-08-28")
 
 if (!requireNamespace("BiocManager", quietly = TRUE)) {
     install.packages("BiocManager")
