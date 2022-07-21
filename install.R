@@ -5,6 +5,8 @@ if (!requireNamespace("BiocManager", quietly = TRUE)) {
 }
 BiocManager::install("BSgenome")
 BiocManager::install("BSgenome.Hsapiens.UCSC.hg19")
+BiocManager::install("BSgenome.Hsapiens.UCSC.hg38")
+# BiocManager::install("BSgenome.Hsapiens.NCBI.GRCh38")
 BiocManager::install("GenomeInfoDb")
 
 install.packages(c(
